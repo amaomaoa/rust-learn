@@ -1,0 +1,17 @@
+{
+    "configurations": {
+        "Rust - Test": {
+            "adapter": "CodeLLDB",
+            "configuration": {
+                "request": "launch",
+                "program": "${workspaceRoot}/target/debug/circular_queue"
+            },
+            "breakpoints": {
+                "exception": {
+                    "cpp_throw": "Y",
+                    "cpp_catch": "N"
+                }
+            }
+        }
+    }
+}
